@@ -44,7 +44,7 @@ function countDown(){
     methods: {},
     attached: function(){
       var clock = this.$els.count;
-      var targetDate = new Date('Sat Oct 1 2016 19:00:00');
+      var targetDate = new Date('Sat Apr 22 2017 19:00:00');
 
       function getTimeRemaining(endtime){
         var t = Date.parse(endtime) - Date.parse(new Date());
@@ -65,7 +65,7 @@ function countDown(){
         var clock = document.getElementById(id);
         var timeinterval = setInterval(function(){
 
-          
+
           var t = getTimeRemaining(endtime);
           clock.textContent = t.days + ' Dagar' + ', ' +
                             t.hours + ' Timmar' + ', ' +
