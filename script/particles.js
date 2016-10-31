@@ -63,7 +63,7 @@ class Canvas {
 
   update() {
 
-    for (let i = 0 i < this.particles.length i++) {
+    for (let i = 0; i < this.particles.length; i++) {
       let particle = this.particles[i]
 
       if (particle.gravity < -1) {
